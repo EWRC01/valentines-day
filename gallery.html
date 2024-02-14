@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Pixel Art Gallery</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var audio = document.getElementById('backgroundMusic');
+            audio.volume = 0.05; // Set the volume (0.0 to 1.0)
+            audio.play(); // Start playing the audio
+        });
+    </script>
+</head>
+<body>
+    <div class="gallery">
+        <div class="museum-floor"></div>
+        <div class="protective-barrier"></div>
+
+        <div class="pixel-art">
+            <div class="wooden-border">
+                <img src="./resources/Kirby.png" alt="Kirby Pixel Art">
+            </div>
+        </div>
+        <div class="pixel-art">
+            <div class="wooden-border">
+                <img src="./resources/kitty.png" alt="Kitty Pixel Art">
+            </div>
+        </div>
+        <div class="pixel-art">
+            <div class="wooden-border">
+                <img src="./resources/Mulan_Regalo.jpg" alt="Mulan Pixel Art">
+            </div>
+        </div>
+
+        <audio id="backgroundMusic" loop>
+            <source src="./resources/background.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
