@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #1a1a1a; /* Dark background for the museum */
     font-family: 'Arial', sans-serif;
-    overflow: hidden; /* Hide any content that goes beyond the body */
+    overflow: auto; /* Hide any content that goes beyond the body */
 }
 
 .gallery {
